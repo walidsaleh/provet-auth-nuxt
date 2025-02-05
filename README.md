@@ -4,6 +4,10 @@
 
 This project is a Nuxt 3 migration of the original [Provet Sign-Up Form](https://github.com/walidsaleh/provet-sign-up/tree/<hash_del_commit_antes_de_la_migracion>) project. The migration enhances the original Vue 3 application with Nuxt features while maintaining the core functionality and design system compliance.
 
+## Live Demo
+
+Deployed on: [https://provet-auth-nuxt.netlify.app/](https://provet-auth-nuxt.netlify.app/)
+
 ## Current State and Limitations
 
 ⚠️ **Please Note**: This should be considered as a draft/work in progress. The current implementation is incomplete and serves mainly as a proof of concept for the Nuxt migration.
