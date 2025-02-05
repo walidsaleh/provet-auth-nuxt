@@ -22,7 +22,7 @@ Being a relatively small project, it still requires significant development time
 - Performance optimizations, particularly regarding bundle size and loading times.
 - Documentation completeness, including documenting all components and their props.
 
-These limitations are recognized and would be addressed in a production environment with appropriate time allocation.  Prioritized areas for future development include enhanced error handling and more comprehensive test coverage for form validation. Please treat this as a draft version rather than a production-ready implementation. Feedback and contributions are welcome! Please see the contributing guidelines for more information.
+These limitations are recognized and would be addressed in a production environment with appropriate time allocation. Prioritized areas for future development include enhanced error handling and more comprehensive test coverage for form validation. Please treat this as a draft version rather than a production-ready implementation. Feedback and contributions are welcome! Please see the contributing guidelines for more information.
 
 ## Key Changes from Original
 
