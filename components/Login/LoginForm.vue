@@ -13,12 +13,7 @@
         :error="loginFormErrors.email"
       />
 
-      <provet-button
-        type="submit"
-        variant="primary"
-        :disabled="!isValidForm"
-        :loading="isLoading"
-      >
+      <provet-button type="submit" variant="primary" :disabled="!isValidForm" :loading="isLoading">
         {{ isLoading ? t('login.loginButton.loading') : t('login.loginButton.default') }}
       </provet-button>
     </provet-stack>
