@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, computed, inject } from 'vue'
-import { useI18n } from '#imports'
 import { LOADING_TIMEOUT } from '@/constants'
 
 import type { SignUpFormData, SignUpFormErrors } from '@/types/auth'

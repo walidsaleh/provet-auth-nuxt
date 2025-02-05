@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { useI18n } from '#imports'
 import SignUpFormLink from './SignUpFormLink.vue'
 import LoginForm from './LoginForm.vue'
 

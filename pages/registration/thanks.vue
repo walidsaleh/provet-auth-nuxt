@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { useI18n } from '#imports'
 import { useRegistration } from '@/composables/useRegistration'
 
 const { t } = useI18n()

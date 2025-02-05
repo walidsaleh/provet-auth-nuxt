@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useI18n } from '#imports'
 import { useRegistration } from '@/composables/useRegistration'
 import LoginFormLink from './LoginFormLink.vue'
 import type { SignUpFormData } from '@/types/auth'
