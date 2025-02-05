@@ -1,0 +1,29 @@
+{
+  "logoAlt": "Provet Cloud Logo",
+  "title": "Sign Up",
+  "subtitle": "Create an account with us",
+  "email": {
+    "label": "Email",
+    "placeholder": "Enter your email"
+  },
+  "password": {
+    "label": "Password",
+    "placeholder": "Enter your password"
+  },
+  "keepUpdated": "Keep me updated with news and offers",
+  "submitButton": {
+    "default": "Sign Up",
+    "loading": "Signing Up..."
+  },
+  "validation": {
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required"
+  },
+  "registration": {
+    "allreadyRegistered": "Already registered?",
+    "thanks": "Thanks for signing up!",
+    "willUpdate": "We will keep you updated with news and offers.",
+    "error": "Something went wrong. Please try again.",
+    "success": "Registration successful!"
+  }
+}

@@ -1,0 +1,27 @@
+html,
+body,
+body > div,
+main {
+  block-size: 100%;
+}
+
+html,
+body {
+  background: var(--n-color-surface-raised);
+}
+
+body {
+  margin: 0;
+}
+
+/* Links */
+a,
+.nuxt-link {
+  color: var(--n-color-text-link);
+  margin-inline-start: var(--n-space-xs);
+}
+
+a:hover,
+.nuxt-link:hover {
+  color: var(--n-color-text-link-hover);
+}
