@@ -22,7 +22,7 @@
 
 <script setup lang="ts">
 import { ref, computed, inject } from 'vue'
-import { LOADING_TIMEOUT } from '@/constants'
+import { LOGIN_LOADING_TIMEOUT } from '@/constants'
 import type { LoginFormData, LoginFormErrors } from '@/types/auth'
 import type { ToastMessage } from '@/types/toast'
 
@@ -50,7 +50,7 @@ const handleSubmit = async () => {
   isLoading.value = true
 
   try {
-    await new Promise((resolve) => setTimeout(resolve, LOADING_TIMEOUT))
+    await new Promise((resolve) => setTimeout(resolve, LOGIN_LOADING_TIMEOUT))
 
     emit('success', {
       email: emailTrimmed.value,
@@ -64,6 +64,9 @@ const handleSubmit = async () => {
     emit('error', errorMessage)
   } finally {
     isLoading.value = false
+    loginForm.value = {
+      email: '',
+    }
   }
 }
 

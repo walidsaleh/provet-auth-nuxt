@@ -15,6 +15,8 @@
   },
   "authentication": {
     "error": "Something went wrong. Please try again.",
-    "success": "Login successful!"
+    "success": "Login successful!",
+    "checkEmail": "Check your email.",
+    "emailSent": "We've sent you a login link to your email. Please check your inbox at"
   }
 }
