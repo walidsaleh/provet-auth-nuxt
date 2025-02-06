@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, inject } from 'vue'
-import { LOADING_TIMEOUT } from '@/constants'
+import { SIGNUP_LOADING_TIMEOUT } from '@/constants'
 
 import type { SignUpFormData, SignUpFormErrors } from '@/types/auth'
 import type { ToastMessage } from '@/types/toast'
@@ -69,7 +69,7 @@ const handleSubmit = async () => {
   isLoading.value = true
 
   try {
-    await new Promise((resolve) => setTimeout(resolve, LOADING_TIMEOUT))
+    await new Promise((resolve) => setTimeout(resolve, SIGNUP_LOADING_TIMEOUT))
     displayToast?.({
       message: t('signup.registration.success'),
       variant: 'default',

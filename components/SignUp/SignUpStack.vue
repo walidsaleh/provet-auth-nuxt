@@ -7,7 +7,6 @@ import type { SignUpFormData } from '@/types/auth'
 const { t } = useI18n()
 const { setRegistrationData } = useRegistration()
 
-const isSuccess = ref<boolean>(false)
 const formData = ref<SignUpFormData | null>(null)
 const errorMessage = ref<string | null>(null)
 
@@ -21,7 +20,6 @@ const handleFormSuccess = async (data: SignUpFormData) => {
 }
 
 const handleFormError = (error: string) => {
-  isSuccess.value = false
   formData.value = null
   errorMessage.value = error
 }
