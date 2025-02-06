@@ -22,8 +22,8 @@ const handleFormSuccess = (data: LoginFormData) => {
         <p>{{ t('login.subtitle') }}</p>
         <provet-banner v-if="isEmailSent" shadow variant="success"
           ><b>{{ t('login.authentication.checkEmail') }}</b>
-          {{ t('login.authentication.emailSent') }} {{ emailData }}</provet-banner
-        >
+          {{ t('login.authentication.emailSent', { email: emailData }) }}
+        </provet-banner>
         <LoginForm @success="handleFormSuccess" />
       </provet-stack>
     </provet-card>
